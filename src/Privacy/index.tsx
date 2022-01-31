@@ -1,5 +1,5 @@
 import * as React from "react";
-import {DetailCol} from "../styles";
+import {DetailCol} from "../stylesold";
 
 
 const Privacy = () => {
@@ -199,7 +199,7 @@ const Privacy = () => {
 
             <p>Welcome to www.Chalk Technologies.mt!</p>
 
-            <p>These terms and conditions outline the rules and regulations for the use of Chalk Technologies Ltd.'s Website, located at www.Chalk Technologies.mt.</p>
+            <p>These terms and conditions outline the rules and regulations for the use of Miura Hawkins's Website, located at www.miura.com.</p>
 
             <p>By accessing this website we assume you accept these terms and conditions. Do not continue to use www.Chalk Technologies.mt if you do not agree to take all of the terms and conditions stated on this page.</p>
 

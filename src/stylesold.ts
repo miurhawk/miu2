@@ -1,66 +1,52 @@
 import styled, { createGlobalStyle } from "styled-components";
 import "typeface-raleway";
 import "typeface-russo-one";
+import {Theme} from "./styles";
 
-
-export const Theme = {
-  colors: {
-    blue: `#205478`, // rgb(32, 84, 120)
-    black: `#161615`, // rgb(22, 22, 21)
-    light: `#FFFFFF`,
-    orange: `#F89C1A`, // rgb(248, 156, 26)
-    darkgrey: `#B3BFCD`, // rgb(179, 191, 205)
-    grey: `#E3E3E3`, // rgb(227, 227, 227)
-
-  },
-  fonts: {
-    body: `Raleway, sans-serif`,
-    heading: `Russo One, sans-serif`,
-  }
-}
-export const GlobalStyle = createGlobalStyle`  
-  body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    color: ${Theme.colors.black}; 
-    font-family: ${Theme.fonts.body}; 
-    font-size: 14pt;
-    background-color: ${Theme.colors.grey};
-    h1 {color: ${Theme.colors.black}; text-transform: uppercase; font-family: ${Theme.fonts.heading}; font-size: 40pt;}
-    h2 {color: ${Theme.colors.black}; text-transform: uppercase; font-family: ${Theme.fonts.heading}; font-size: 40pt;}
-    h3 {color: ${Theme.colors.black}; text-transform: uppercase; font-family: ${Theme.fonts.heading}; font-size: 30pt;}
-    h4 {color: ${Theme.colors.orange}; text-transform: uppercase; font-family: ${Theme.fonts.heading}; font-size: 18pt; margin: 10px;}
-    h5 {color: ${Theme.colors.black}; text-transform: uppercase; font-family: ${Theme.fonts.heading};}
-    h6 {color: ${Theme.colors.black}; text-transform: uppercase; font-family: ${Theme.fonts.heading}; font-size: 20pt; margin: 0;}
-    a:link {color: ${Theme.colors.black}; text-decoration: none; padding: 0;}
-    a:link:hover {font-weight: bold; text-decoration: none;}
-    a:link:active {color: ${Theme.colors.orange}; text-decoration: none;}
-    a:link:visited {color: ${Theme.colors.black}; text-decoration: none;}
-    a:visited {color: ${Theme.colors.black}; text-decoration: none;}
-    a:visited:hover {font-weight: bold; text-decoration: none;}
-    a:visited:active {color: ${Theme.colors.orange}; text-decoration: none;}
-    @media only screen and (max-width: 800px) {
-      font-size: 12pt;
-      h1 {font-size: 40pt;}
-      h2 {font-size: 40pt;}
-      h3 {font-size: 27pt;}
-      h4 {font-size: 24pt;}
-      h5 {font-size: 24pt;}
-      h6 {font-size: 19pt;}
-      h7 {font-size: 14pt;}
-    }
-  }
-`;
+//
+// export const GlobalStyle = createGlobalStyle`
+//   body {
+//     margin: 0;
+//     padding: 0;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: stretch;
+//     color: ${Theme.colors.black};
+//     font-family: ${Theme.fonts.body};
+//     font-size: 14pt;
+//     background-color: ${Theme.colors.grey};
+//     h1 {color: ${Theme.colors.black}; text-transform: uppercase; font-family: ${Theme.fonts.heading}; font-size: 40pt;}
+//     h2 {color: ${Theme.colors.black}; text-transform: uppercase; font-family: ${Theme.fonts.heading}; font-size: 40pt;}
+//     h3 {color: ${Theme.colors.black}; text-transform: uppercase; font-family: ${Theme.fonts.heading}; font-size: 30pt;}
+//     h4 {color: ${Theme.colors.orange}; text-transform: uppercase; font-family: ${Theme.fonts.heading}; font-size: 18pt; margin: 10px;}
+//     h5 {color: ${Theme.colors.black}; text-transform: uppercase; font-family: ${Theme.fonts.heading};}
+//     h6 {color: ${Theme.colors.black}; text-transform: uppercase; font-family: ${Theme.fonts.heading}; font-size: 20pt; margin: 0;}
+//     a:link {color: ${Theme.colors.black}; text-decoration: none; padding: 0;}
+//     a:link:hover {font-weight: bold; text-decoration: none;}
+//     a:link:active {color: ${Theme.colors.orange}; text-decoration: none;}
+//     a:link:visited {color: ${Theme.colors.black}; text-decoration: none;}
+//     a:visited {color: ${Theme.colors.black}; text-decoration: none;}
+//     a:visited:hover {font-weight: bold; text-decoration: none;}
+//     a:visited:active {color: ${Theme.colors.orange}; text-decoration: none;}
+//     @media only screen and (max-width: 800px) {
+//       font-size: 12pt;
+//       h1 {font-size: 40pt;}
+//       h2 {font-size: 40pt;}
+//       h3 {font-size: 27pt;}
+//       h4 {font-size: 24pt;}
+//       h5 {font-size: 24pt;}
+//       h6 {font-size: 19pt;}
+//       h7 {font-size: 14pt;}
+//     }
+//   }
+// `;
 
 
 export const BrandA = styled.div`
   margin-left: 0;
   margin-right: auto;
   height: 50px;
-  width: 120px; 
+  width: 120px;
   cursor: pointer;
   background-image: url(./img/logoHorzBlack.png);
   background-size: contain;
@@ -82,19 +68,19 @@ export const Launch = styled.button`
   padding: 0 10px;
   height: 30px;
   cursor: pointer;
-  border: 2px solid ${Theme.colors.light};
+  border: 2px solid ${Theme.colors.white};
   background-color: rgba(255, 255, 255, 0.6);
   font-family: ${Theme.fonts.body};
   color: ${Theme.colors.black};
   border-radius: 15px;
-  min-width: 80px; 
+  min-width: 80px;
   justify-self: flex-end;
   flex-grow: 0;
   -webkit-flex-grow: 0;
   :hover {
     background-color: rgba(255, 255, 255, 1);
     font-weight: bold;
-  
+
   }
   @media only screen and (max-width: 800px) {
     margin-right: 0;
@@ -109,10 +95,10 @@ export const BookButton = styled.button`
   cursor: pointer;
   width: 140px;
   align-self: center;
-  color: ${Theme.colors.black}; 
-  font-family: ${Theme.fonts.body}; 
+  color: ${Theme.colors.black};
+  font-family: ${Theme.fonts.body};
   font-size: 12pt;
-  border: 2px solid ${Theme.colors.light};
+  border: 2px solid ${Theme.colors.white};
   border-radius: 30px;
   :hover {
     background-color: rgba(255, 255, 255, 1);
@@ -128,7 +114,7 @@ export const Social = styled.button`
     border-radius: 18px;
     background-color: ${Theme.colors.black};
     font-size: 18pt;
-    color: ${Theme.colors.light};
+    color: ${Theme.colors.white};
     :hover {
         background-color: ${Theme.colors.orange};
     }
@@ -179,7 +165,7 @@ export const Navbar = styled.nav`
   height: 50px;
   width: 100vw;
   text-align: center;
-  background: ${Theme.colors.grey};
+  background: ${Theme.colors.white};
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -277,7 +263,7 @@ export const FullPhoto = styled.div`
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  background-color: ${Theme.colors.darkgrey};
+  background-color: ${Theme.colors.black};
   -webkit-flex-grow: 1;
   align-items: flex-start;
   justify-content: space-between;
@@ -288,10 +274,10 @@ export const FullPhoto = styled.div`
   width: calc(100% - 40px);
   text-align: left;
   font-size: 20pt;
-  color: ${Theme.colors.light};
+  color: ${Theme.colors.white};
   padding: 20px;
   font-weight: bold;
-  
+
   button {
     align-self: flex-end;
     margin: 0;
@@ -312,7 +298,7 @@ export const PartialPhoto = styled.div<{ left: boolean }>`
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  background-color: 
+  background-color:
   -webkit-flex-grow: 1;
   align-items: flex-start;
   justify-content: flex-start;
@@ -322,18 +308,18 @@ export const PartialPhoto = styled.div<{ left: boolean }>`
   background-repeat: no-repeat;
   text-align: left;
   font-size: 20pt;
-  color: ${Theme.colors.grey};
+  color: ${Theme.colors.white};
   margin: 20px;
   width: 30%;
   height: 600px;
   font-weight: bold;
-  
+
   button {
     align-self: flex-start;
     margin: 0 0 0 3rem;
     width: 250px;
   }
-  
+
   @media only screen and (max-width: 800px) {
     width: 100%;
     height: 500px;
@@ -423,7 +409,7 @@ export const PricingDiv = styled.div`
   }
   text-align: center;
   height: 400px;
-  border: 4px solid ${Theme.colors.light};
+  border: 4px solid ${Theme.colors.white};
   href: ${props => props.href};
   @media only screen and (max-width: 800px) {
     margin: auto;
@@ -451,7 +437,7 @@ export const TC = styled.div`
   flex-direction: row;
   align-items: center;
   flex-wrap: nowrap;
-  color: ${Theme.colors.light};
+  color: ${Theme.colors.white};
   z-index: 2;
   div {
     width: auto;
@@ -507,11 +493,11 @@ export const StyledForm = styled.form`
     padding: 5px;
   };
   select {
-    background-color: ${Theme.colors.light};
+    background-color: ${Theme.colors.white};
     border: none;
   };
   input {
-    background-color: ${Theme.colors.light};
+    background-color: ${Theme.colors.white};
     border: none;
     font-size: 14pt;
     font-family: ${Theme.fonts.body};
@@ -521,12 +507,12 @@ export const StyledForm = styled.form`
     border: none;
     border-radius: 20px;
     :hover {
-      background-color: ${Theme.colors.grey};
+      background-color: ${Theme.colors.white};
       font-weight: bold;
     }
   }
   select {
-    background-color: ${Theme.colors.light};
+    background-color: ${Theme.colors.white};
     border: none;
     font-size: 14pt;
     font-family: ${Theme.fonts.body};
@@ -559,7 +545,7 @@ export const StyledFormLight = styled.form`
   flex-grow: 1;
   flex-direction: column;
   width: 600px;
-  background-color: ${Theme.colors.light};
+  background-color: ${Theme.colors.white};
   align-items: stretch;
   justify-content: space-evenly;
   align-self: center;
@@ -569,11 +555,11 @@ export const StyledFormLight = styled.form`
     font-size: 14pt;
   };
   select {
-    background-color: ${Theme.colors.grey};
+    background-color: ${Theme.colors.white};
     border: none;
   };
   input {
-    background-color: ${Theme.colors.grey};
+    background-color: ${Theme.colors.white};
     border: none;
     font-size: 14pt;
     font-family: ${Theme.fonts.body};
@@ -583,12 +569,12 @@ export const StyledFormLight = styled.form`
     border: none;
     border-radius: 20px;
     :hover {
-      background-color: ${Theme.colors.light};
+      background-color: ${Theme.colors.white};
       font-weight: bold;
     }
   }
   select {
-    background-color: ${Theme.colors.grey};
+    background-color: ${Theme.colors.white};
     border: none;
     font-size: 14pt;
     font-family: ${Theme.fonts.body};
@@ -866,7 +852,7 @@ export const GalleryDot = styled.div`
   position: relative;
   border-radius: 15px;
   z-index: 0;
-  background-color: ${(props) => props.isActive ? Theme.colors.black : Theme.colors.light};
+  background-color: ${(props) => props.isActive ? Theme.colors.black : Theme.colors.white};
   :hover {
     background-color: ${(props) => props.color };
 }
@@ -887,7 +873,7 @@ export const StyledTable = styled.table`
   align-items: stretch;
   align-self: center;
   th {color: ${Theme.colors.blue}; font-size: 14pt; font-family: ${Theme.fonts.body}; padding: 0px; text-align: left;}
-  tr {color: ${Theme.colors.light}; font-family: ${Theme.fonts.body}; padding: 10px; text-align: left;}
+  tr {color: ${Theme.colors.white}; font-family: ${Theme.fonts.body}; padding: 10px; text-align: left;}
   button {
     width: 50px;
     margin: 10px;
@@ -895,7 +881,7 @@ export const StyledTable = styled.table`
   @media only screen and (max-width: 800px) {
     th {
       font-size: 10pt;
-      
+
     }
     tr {
       font-size: 10pt;
@@ -905,5 +891,5 @@ export const StyledTable = styled.table`
       height: 30px;
     }
   };
-  
+
 `;

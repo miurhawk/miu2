@@ -17,7 +17,7 @@ export const Contact = () => {
 
             </ol></p>
 
-            <img src="/massimo4.jpeg" alt="Copyright Massimo Cappuccio"></img>
+            <img src="/img/massimo.jpeg" alt="Copyright Massimo Cappuccio"></img>
 
         </div>
     );

@@ -1,9 +1,8 @@
-import {GlobalStyle} from "../stylesold";
+import {CenteredPage, GlobalStyle} from "../styles";
 import Head from "next/head";
 import * as React from "react";
-import {Subscribe} from "../components/Subscribe";
 import Footer from "../components/Footer";
-import Terms from "../Terms";
+
 
 import { AppProps /*, AppContext */ } from 'next/app';
 import {NavCol} from "../NavCol/NavCol";
@@ -26,13 +25,10 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
 
             <NavCol />
 
-            <br />
-            <Component {...pageProps} />
-
-            <br />
-            <Subscribe />
-            <Footer />
-            <Terms />
+            {/*<br />*/}
+            <CenteredPage>
+                <Component {...pageProps} />
+            </CenteredPage>
 
         </>
 )

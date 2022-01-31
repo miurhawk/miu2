@@ -15,6 +15,7 @@ export const Climbing = () => {
             <p>in the past few years I have transitioned from primarily climbing indoors to climbing almost exclusively on rock. while this was not entirely by choice, it has been a welcome change in my life.</p>
             <p>here are some of my climbing-related achievements of which I am proud:
             <ul>
+                <li>2021: FA Amirami 8b - panere, Susa valley</li>
                 <li>2019: FA Superwoman 8b - mistra, Malta</li>
                 <li>2016: ascent of mount rainier disappointment cleaver - wa, USA</li>
                 <li>2014: ifsc bouldering world cup circuit - baku, laval, innsbruck, grindelwald</li>
@@ -23,14 +24,16 @@ export const Climbing = () => {
                 <li>2003: first us national climbing competition - alexandria, va</li>
             </ul>
             </p>
-            <img src="/eddie1.jpeg" alt="Copyright The Circuit World Cup Climbing and Performance Magazine, Eddie Fowdke"></img>
-            <img src="/eddie2.jpeg" alt="Copyright The Circuit World Cup Climbing and Performance Magazine, Eddie Fowdke"></img>
-            <img src="/eddie3.jpeg" alt="Copyright The Circuit World Cup Climbing and Performance Magazine, Eddie Fowdke"></img>
-            <img src="/massimo1.jpeg" alt="Copyright Massimo Cappuccio"></img>
-            <img src="/massimo2.jpeg" alt="Copyright Massimo Cappuccio"></img>
-            <img src="/massimo3.jpeg" alt="Copyright Massimo Cappuccio"></img>
-            <img src="/massimo4.jpeg" alt="Copyright Massimo Cappuccio"></img>
-            <img src="/massimo5.jpeg" alt="Copyright Massimo Cappuccio"></img>
+            <img src="/img/eddie1.JPG" alt="Copyright The Circuit World Cup Climbing and Performance Magazine, Eddie Fowdke"></img>
+            <img src="/img/eddie2.JPG" alt="Copyright The Circuit World Cup Climbing and Performance Magazine, Eddie Fowdke"></img>
+            {/*<img src="/eddie3.jpeg" alt="Copyright The Circuit World Cup Climbing and Performance Magazine, Eddie Fowdke"></img>*/}
+            <img src="/img/massimo2.jpeg" alt="Copyright Massimo Cappuccio"></img>
+            <img src="/img/massimo3.JPG" alt="Copyright Massimo Cappuccio"></img>
+            <img src="/img/DdavidZammit.jpg" alt="Copyright David Zammit"></img>
+            {/*<img src="/massimo3.jpeg" alt="Copyright Massimo Cappuccio"></img>*/}
+            {/*<img src="/massimo3.jpeg" alt="Copyright Massimo Cappuccio"></img>*/}
+            {/*<img src="/massimo4.jpeg" alt="Copyright Massimo Cappuccio"></img>*/}
+            {/*<img src="/massimo5.jpeg" alt="Copyright Massimo Cappuccio"></img>*/}
 
             <h3 id="resources">resources</h3>
             <p>here are some of my favorite climbing and training resources:

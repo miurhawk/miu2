@@ -1,6 +1,6 @@
 import * as React from "react";
 import {useEffect, useState} from "react";
-import {BookButton, Launch, TC, Theme} from "../styles";
+import {Launch, TC} from "../stylesold";
 import {useCookies} from "react-cookie";
 
 const Terms = () => {

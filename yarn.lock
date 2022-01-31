@@ -1060,18 +1060,6 @@
     "@parcel/utils" "^1.11.0"
     physical-cpu-count "^2.0.0"
 
-"@stripe/react-stripe-js@^1.1.2":
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/@stripe/react-stripe-js/-/react-stripe-js-1.4.1.tgz#884d59286fff00ba77389b32c045516f65d7a340"
-  integrity sha512-FjcVrhf72+9fUL3Lz3xi02ni9tzH1A1x6elXlr6tvBDgSD55oPJuodoP8eC7xTnBIKq0olF5uJvgtkJyDCdzjA==
-  dependencies:
-    prop-types "^15.7.2"
-
-"@stripe/stripe-js@^1.11.0":
-  version "1.17.0"
-  resolved "https://registry.yarnpkg.com/@stripe/stripe-js/-/stripe-js-1.17.0.tgz#1961aad0aa4d2f1609753c2807ed39baea025691"
-  integrity sha512-LztkapiDV+2bEjsmAL2QnmTQBJwx37VnvuBkgXxPe9cJr2jbK0UGzumxSZUiRXeUlgh5j3CXh5jsGFTdc3iv+Q==
-
 "@types/cookie@^0.3.3":
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/@types/cookie/-/cookie-0.3.3.tgz#85bc74ba782fb7aa3a514d11767832b0e3bc6803"
@@ -5074,7 +5062,7 @@ process@0.11.10, process@^0.11.10:
   resolved "https://registry.yarnpkg.com/process/-/process-0.11.10.tgz#7332300e840161bda3e69a1d1d91a7d4bc16f182"
   integrity sha1-czIwDoQBYb2j5podHZGn1LwW8YI=
 
-prop-types@^15.5.10, prop-types@^15.6.0, prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@^15.5.10, prop-types@^15.6.0, prop-types@^15.6.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -6256,20 +6244,15 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typeface-montserrat@^0.0.75:
-  version "0.0.75"
-  resolved "https://registry.yarnpkg.com/typeface-montserrat/-/typeface-montserrat-0.0.75.tgz#b796d9c767ab8ed1343271985beb1e44b382b7b3"
-  integrity sha512-8ski20t3hdwu2T85pVfjK4jsDbwW8yWzd+LAKxYEmu+JVLVlB7G2yfmdKZz06pUwYCLVFvHvup+NYYulHDpE+w==
-
-typeface-raleway@^1.1.13:
+typeface-lexend-mega@^1.1.13:
   version "1.1.13"
-  resolved "https://registry.yarnpkg.com/typeface-raleway/-/typeface-raleway-1.1.13.tgz#5dd44c7029c69991f3e8a66f4434ba62bcf0886a"
-  integrity sha512-iouV4D1dv4Ylm++j2PmPW7HKJH7zTKu5xXsta1hqQ2oG8+9fSpocuF40xCSTckaa1DLYbk1TUiU14wr2nCUBqg==
+  resolved "https://registry.yarnpkg.com/typeface-lexend-mega/-/typeface-lexend-mega-1.1.13.tgz#c3691f82d1094dc78cf43b7c5fd0f8bd4b46a02a"
+  integrity sha512-9HSsCw0nRxpIDnqFzxVi2qH14vkfVDLO1pGeVRWXxTLWLwfaD3vd8oc4BMgDeag32j6Zl5NQGo1pfR3eyQGlCQ==
 
-typeface-russo-one@^1.1.13:
+typeface-space-mono@^1.1.13:
   version "1.1.13"
-  resolved "https://registry.yarnpkg.com/typeface-russo-one/-/typeface-russo-one-1.1.13.tgz#3df122197be2469de5a0d64a6741706e79b37208"
-  integrity sha512-qsZ8bkJl3bceQOiwDjc+vG7pohBJc/MAqU8qPH06nQ4oaQ1i5NcFo6+OtZ9vQKNrteP1Eap/OdzgKVZRoow5Iw==
+  resolved "https://registry.yarnpkg.com/typeface-space-mono/-/typeface-space-mono-1.1.13.tgz#b63acc9511d0c28b60a85d4e6805a716d9bdfc7a"
+  integrity sha512-F5ogC58i6PqmG+Q35gXHIZsaP822Lyd+xNBGYhNDKsffxaloamA9ecDum7OZG0qfQtmsuPbT7fiFOtLR1dPoow==
 
 typescript@^4.0.2:
   version "4.3.5"

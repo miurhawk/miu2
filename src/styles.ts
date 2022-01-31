@@ -1,9 +1,9 @@
-import styled from "styled-components";
+import styled, { createGlobalStyle } from "styled-components";
 import "typeface-space-mono"
 import "typeface-lexend-mega"
 
 export const Colors = [`#119da4`,`#ddedaa`,`#ebf065`,`#d7816a`,`#bd4f6c`];
-const Theme = {
+export const Theme = {
     colors: {
         black: `#000000`,
         white: `#FFFFFF`,
@@ -33,7 +33,9 @@ export const MainView = styled.div`
   h5 {color: ${Theme.colors.black}; font-family: ${Theme.fonts.heading}; font-size: 20pt; text-transform: lowercase;};
   h6 {color: ${Theme.colors.black}; font-family: ${Theme.fonts.heading}; font-size: 15pt; line-height: 10pt; margin: 0; background-color: ${Theme.colors.red}; text-transform: lowercase;};
   p {color: ${Theme.colors.black}; font-family: ${Theme.fonts.body}; font-size: 13pt; text-transform: lowercase;};
-  a {color: ${Theme.colors.black}; font-family: ${Theme.fonts.body}; font-size: 13pt; text-transform: lowercase;};
+  color: ${Theme.colors.black};
+  font-family: ${Theme.fonts.body};
+  font-size: 13pt; text-transform: lowercase;
   a:link {color: ${Theme.colors.black}; padding: 0;};
   a:link:hover {color: ${Theme.colors.red}; text-decoration: none;};
   a:link:active {color: ${Theme.colors.blue}; text-decoration: none;};
@@ -64,6 +66,68 @@ export const MainView = styled.div`
     h5 {font-size: 14pt;};
     h6 {font-size: 12pt;};
     h7 {font-size: 12pt;};
+  }
+`;
+
+export const GlobalStyle = createGlobalStyle`
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    color: ${Theme.colors.black};
+    font-family: ${Theme.fonts.body};
+    font-size: 14pt;
+    background-color: ${Theme.colors.white};
+      h1 {color: ${Theme.colors.red}; font-family: ${Theme.fonts.heading}; margin-bottom: 100px; font-size: 40pt; text-transform: lowercase; :hover {font-style: italic;};};
+      h2 {color: ${Theme.colors.red}; font-family: ${Theme.fonts.heading}; font-size: 35pt; text-transform: lowercase; :hover {font-style: italic;};};
+      h3 {color: ${Theme.colors.black}; font-family: ${Theme.fonts.heading}; font-size: 30pt; line-height: 10pt; margin: 100px 0pt 50px 0pt; text-transform: lowercase;};
+      h4 {color: ${Theme.colors.red}; font-family: ${Theme.fonts.heading}; font-size: 25pt; text-transform: lowercase; };
+      h5 {color: ${Theme.colors.black}; font-family: ${Theme.fonts.heading}; font-size: 20pt; text-transform: lowercase;};
+      h6 {color: ${Theme.colors.black}; font-family: ${Theme.fonts.heading}; font-size: 15pt; line-height: 10pt; margin: 0; background-color: ${Theme.colors.red}; text-transform: lowercase;};
+      p {color: ${Theme.colors.black}; font-family: ${Theme.fonts.body}; font-size: 13pt; text-transform: lowercase;};
+      color: ${Theme.colors.black};
+      font-family: ${Theme.fonts.body};
+      font-size: 13pt; text-transform: lowercase;
+      a:link {color: ${Theme.colors.black}; text-decoration: none; padding: 0;}
+    a:link:hover {font-weight: bold; text-decoration: none;}
+    a:link:active {color: ${Theme.colors.orange}; text-decoration: none;}
+    a:link:visited {color: ${Theme.colors.black}; text-decoration: none;}
+    a:visited {color: ${Theme.colors.black}; text-decoration: none;}
+    a:visited:hover {font-weight: bold; text-decoration: none;}
+    a:visited:active {color: ${Theme.colors.orange}; text-decoration: none;}
+      img {
+    max-height: 400px;
+    margin: 20px;
+    width: auto;
+    h2 {
+    display: none;
+    }
+    :hover {
+      opacity: .6;
+      h2 {
+          display: static;
+      }
+    };
+  };
+    a:link {color: ${Theme.colors.black}; padding: 0;};
+  a:link:hover {color: ${Theme.colors.red}; text-decoration: none;};
+  a:link:active {color: ${Theme.colors.blue}; text-decoration: none;};
+  a:link:visited {color: ${Theme.colors.black}; text-decoration: none;};
+  a:visited {color: ${Theme.colors.black}; text-decoration: none;};
+  a:visited:hover {color: ${Theme.colors.red}; text-decoration: none;};
+  a:visited:active {color: ${Theme.colors.blue}; text-decoration: none;};
+    @media only screen and (max-width: 800px) {
+      font-size: 12pt;
+      h1 {font-size: 40pt;}
+      h2 {font-size: 40pt;}
+      h3 {font-size: 27pt;}
+      h4 {font-size: 24pt;}
+      h5 {font-size: 24pt;}
+      h6 {font-size: 19pt;}
+      h7 {font-size: 14pt;}
+    }
   }
 `;
 

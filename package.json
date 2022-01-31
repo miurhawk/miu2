@@ -13,8 +13,6 @@
     "build": "next build"
   },
   "dependencies": {
-    "@stripe/react-stripe-js": "^1.1.2",
-    "@stripe/stripe-js": "^1.11.0",
     "@types/react-router-dom": "^5.1.5",
     "base-64": "^1.0.0",
     "components": "^0.1.0",
@@ -33,9 +31,8 @@
     "react-router-sitemap": "^1.2.0",
     "setimmediate": "^1.0.5",
     "styled-components": "^5.1.1",
-    "typeface-montserrat": "^0.0.75",
-    "typeface-raleway": "^1.1.13",
-    "typeface-russo-one": "^1.1.13"
+    "typeface-lexend-mega": "^1.1.13",
+    "typeface-space-mono": "^1.1.13"
   },
   "devDependencies": {
     "@types/react": "^16.9.41",
