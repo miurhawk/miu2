@@ -8,10 +8,10 @@ export const Tech = () => {
             <p>below is a list of links to current and recent tech projects:
             <br />
             <ul>
-                <li><a href="https://www.chalk-technologies.com">chalk technologies</a></li>
-                <li><a href="https://www.nature-counts.org">nature counts foundation</a></li>
-                <li><a href="https://www.carbon-delta.com/">carbon delta</a></li>
-                <li><a href="https://www.ini.uzh.ch/en.html">institut für neuroinformatik</a></li>
+                <li><a target="_blank" href="https://www.chalk-technologies.com">chalk technologies</a></li>
+                <li><a target="_blank" href="https://www.nature-counts.org">nature counts foundation</a></li>
+                <li><a target="_blank" href="https://www.climate-kic.org/success-stories/carbon-delta/">carbon delta</a></li>
+                <li><a target="_blank" href="https://www.ini.uzh.ch/en.html">institut für neuroinformatik</a></li>
             </ul>
             </p>
             <h3 id="consulting">consulting</h3>

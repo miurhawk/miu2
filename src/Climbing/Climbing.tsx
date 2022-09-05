@@ -39,9 +39,9 @@ export const Climbing = () => {
             <p>here are some of my favorite climbing and training resources:
 
             <ul>
-                <li><a href="https://udini.com/">Udo Neumann</a></li>
-                <li><a href="https://trainingforclimbing.com/">Training for climbing</a></li>
-                <li><a href="https://www.instagram.com/nickonhands/">Nick Brewer</a></li>
+                <li><a target="_blank" href="https://udini.com/">Udo Neumann</a></li>
+                <li><a target="_blank" href="https://trainingforclimbing.com/">Training for climbing</a></li>
+                <li><a target="_blank" href="https://www.instagram.com/nickonhands/">Nick Brewer</a></li>
             </ul></p>
 
             <p><span style={{fontWeight: `bold`}}>my personal philosophy</span> in coaching and training centers heavily around motivation and recovery cycles. we must be strict with ourselves to see short-term gain, but we must be kind to ourselves for sustainable gain. if you are able to generate motivation for achieving your goals, you <span style={{fontStyle: `italic`, fontWeight: `bold`}}>will</span> find some form of success.</p>
@@ -64,7 +64,7 @@ export const Climbing = () => {
             <h3 id="coaching">coaching</h3>
             <p>I am taking on motivated athletes of all levels for coaching sessions, as long as you are willing to put in the time and effort to improve yourself.</p>
 
-            <p>I am based in <span style={{fontStyle: `italic`, fontWeight: `bold`}}>Malta</span>.</p>
+            <p>I am based in <span style={{fontStyle: `italic`, fontWeight: `bold`}}>Aix-en-Provence</span>.</p>
 
             <p>coaching sessions are €50 for 1 hour or €125 for 3 hours. I also offer personalized training plans for €125. please <a href="mailto:miura@chalk-technologies.com">write me</a> for more information or for longer-term packages.</p>
 

@@ -40,11 +40,11 @@ export const NavCol = () => {
             <br />
             <a href="/climbing#coaching">coaching</a>
                 <br />
-            <a href="https://www.gebla.mt">Ġebla</a>
+            <a target="_blank" href="https://www.gebla.mt">Ġebla</a>
             <h5 onClick={onClickTech}>computing</h5>
-            <a href="https://www.chalk-technologies.com">chalk</a>
+            <a target="_blank" href="https://www.chalk-technologies.com">chalk</a>
             <br />
-            <a href="https://www.github.com/miurhawk">github</a>
+            <a target="_blank" href="https://www.github.com/miurhawk">github</a>
             <br />
             <a href="/tech#consulting">consulting</a>
             <h5 onClick={onClickArt}>creating</h5>
@@ -54,15 +54,12 @@ export const NavCol = () => {
             <br />
             <a href="/art#video">video</a>
             <br />
-            <a href="https://medium.com/@miura.hawkins">writing</a>
+            <a target="_blank" href="https://medium.com/@miura.hawkins">writing</a>
             <br />
             <br />
             <h5 style={{color: `#ff674d`}}>mi + u</h5>
             <a href="/contact">contact</a>
-            <br />
-                <a href="/CVMiura.pdf">cv</a>
-                <br />
-                <a href="/privacy">privacy</a>
+
         </Nav>
                 </>
     )
